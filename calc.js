@@ -9,7 +9,17 @@ function equalbtton(){
     let display = document.getElementById("display").value
     let result = eval(display)
     document.getElementById("display").value = result 
-
 }
+
+function clearbtton(){
+    document.getElementById("display").value = " " 
+}
+
+function deletebtton(){
+    var ans = document.getElementById("display").value;
+    document.getElementById("display").value = ans.substr(0, ans.length - 1);
+ 
+}
+
 
 
