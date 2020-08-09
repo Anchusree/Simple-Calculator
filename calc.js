@@ -1,13 +1,15 @@
 
 
-let display = document.getElementById("display");
-
-
 function btton(val){
     document.getElementById("display").value += val
-    console.log(val)
+
 }
-function clearbtton(){
-    document.getElementById("display").value = " " 
+
+function equalbtton(){
+    let display = document.getElementById("display").value
+    let result = eval(display)
+    document.getElementById("display").value = result 
+
 }
+
 
