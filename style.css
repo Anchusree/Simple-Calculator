@@ -1,0 +1,24 @@
+
+.container{
+    display: flex;
+    text-align: center;
+    background-color: gray;
+    width: 600px;
+ 
+}
+.box{
+    text-align: center;
+    margin: 40px;
+    
+}
+#display{
+    width: 500px;
+    height:40px;
+}
+.buttons{
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    padding-top:50px;
+}
+
